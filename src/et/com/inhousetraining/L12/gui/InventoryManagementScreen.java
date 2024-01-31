@@ -29,7 +29,7 @@ public class InventoryManagementScreen extends JFrame {
         
         
         JPanel panel = new JPanel();
-        panel.setSize(800, 700);
+        panel.setSize(700, 600);
         panel.setBackground(Color.gray);
         add(panel, BorderLayout.CENTER);
         

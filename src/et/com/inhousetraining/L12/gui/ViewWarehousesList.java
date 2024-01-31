@@ -28,7 +28,7 @@ public class ViewWarehousesList extends JFrame
          
         //actual data for the table in a 2d array
         List<Warehouse> warehouses = new InventoryService().getAllWarehouses();
-        Object[][] data = new Object[warehouses.size()][4];
+        Object[][] data = new Object[warehouses.size()][2];
         for (int i = 0; i < warehouses.size(); i++) {
             data[i] = new Object[] {warehouses.get(i).getWarehouseID(), warehouses.get(i).getLocation(), warehouses.get(i).getCurrentQuantity(), warehouses.get(i).getMaxCapacity()};
         }
