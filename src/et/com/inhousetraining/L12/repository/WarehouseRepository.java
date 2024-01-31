@@ -7,14 +7,14 @@ package et.com.inhousetraining.L12.repository;
 import et.com.inhousetraining.L12.models.*;
 import java.util.ArrayList;
 import java.util.List;
-import com.mysql.jdbc.PreparedStatement;
+
 import et.com.inhousetraining.L12.util.MySQLJDBCUtil;
 import java.io.*;
 import java.util.List;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 /**
  *
  * @author eyu

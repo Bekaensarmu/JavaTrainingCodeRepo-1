@@ -4,13 +4,12 @@
  */
 package et.com.inhousetraining.L12.util;
 
-import com.mysql.jdbc.PreparedStatement;
 import java.io.*;
 import java.util.List;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 /**
  *
@@ -22,16 +21,16 @@ public class UtilTest {
 
         //readFromFile();
         //writeToFile();
-        //connectToDB();
+        connectToDB();
         
-        System.out.println("Geting existing data \n\n");
-        getDataFromDB();
-
-        System.out.println("Inserting new Data into  \n\n");
-        insertDataInDB();
-
-        System.out.println("Get The new data   \n\n");
-        getDataFromDB();
+//        System.out.println("Geting existing data \n\n");
+//        getDataFromDB();
+//
+//        System.out.println("Inserting new Data into  \n\n");
+//        insertDataInDB();
+//
+//        System.out.println("Get The new data   \n\n");
+//        getDataFromDB();
 
 
     }
